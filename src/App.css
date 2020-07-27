@@ -2,16 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -24,15 +14,116 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Jugemu{
+
+  font-family: 'Comfortaa'
+}
+h1.Jugemu {
+  color: #B9314F;
+  
+}
+h2.Jugemu {
+  color: #B9314F
+}
+h3.Jugemu {
+  color: #026c7c
+}
+.navbar-light {
+  color:#026c7c;
+}
+a.Jugemu.navbar-brand {
+  color: #b9314f
+}
+a.Jugemu.nav-link {
+  color:#026c7c;
+}
+p.Jugemu {
+  color: #0D1821
+}
+a.Jugemu {
+  color: #026c7c;
+}
+div.jumbotron.Jugemu {
+  background-color: #026c7c;
+}
+.homecenter {
+  text-align: center;
+  font-family: 'Comfortaa';
+ 
+}
+.icon {
+  height: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{
+  background-color: #FEF9FF;
+}
+.whitestuff {
+  color: #B9314F;
+  margin:15px;
+}
+.logo {
+  height: 120px; 
+  text-align: center;
+  
+}
+
+.starthome {
+  border-radius: 15px;
+  padding: 32px;  
+  border: 1px solid #f6ae2d;
+}
+
+
+p {
+  font-family: 'Open Sans';
+}
+
+h3 {
+  font-family: 'Comfortaa'
+}
+
+
+.btn-startbut {
+  
+  color: #B9314F;
+  border: 1px solid #f6ae2d
+
+}
+.btn-startbut:hover {
+  color:#026c7c;
+}
+
+.nav-link {
+  color: rgba(0,0,0,.7);
+}
+.nav-link:hover {
+  color: #B9314F
+}
+.dropdown-item {
+  background-color: #FEF9FF;
+}
+.dropdown-menu {
+  background-color: #FEF9FF;
+}
+.pageheader{
+  background-color: #FEF9FF;
+  z-index: 4;
+
+}
+.blueline {
+  background-color: #026c7c;
+  height: 30px;
+}
+
+.whitetext {
+  color:#FEF9FF
+}
+.footer {
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  height:60px;
+  padding: 10px;
+  
 }
